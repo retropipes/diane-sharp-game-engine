@@ -1,11 +1,11 @@
 ﻿namespace DianeSharp.Point;
 
-public class Point6d
+public class Point6d(int nx, int ny, int nz, int nw, int nv, int nu)
 {
-    public int X { get; set; }
-    public int Y { get; set; }
-    public int Z { get; set; }
-    public int W { get; set; }
-    public int V { get; set; }
-    public int U { get; set; }
+    public int X { get; set; } = nx;
+    public int Y { get; set; } = ny;
+    public int Z { get; set; } = nz;
+    public int W { get; set; } = nw;
+    public int V { get; set; } = nv;
+    public int U { get; set; } = nu;
 }
